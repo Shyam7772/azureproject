@@ -1,0 +1,14 @@
+{
+	"name": "Azure_sql",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "shyamazureprojectserver.database.windows.net",
+			"database": "shyamazureprojectdatabase",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	}
+}
