@@ -1,0 +1,15 @@
+{
+	"name": "df-shyamazureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ab315a60-00f3-493a-8b8a-d60bc0ac173e",
+		"tenantId": "4a95454e-1416-494e-8661-1fada302a0d1"
+	}
+}
